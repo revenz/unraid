@@ -17,7 +17,7 @@
       </Port>
       <Port>
         <HostPort>8443</HostPort>
-        <ContainerPort>8843</ContainerPort>
+        <ContainerPort>8443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
@@ -45,7 +45,7 @@
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:8880/</WebUI>
+  <WebUI>http://[IP]:8080/</WebUI>
   <Banner>https://raw.githubusercontent.com/revenz/unraid/master/openhab/openhab_banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/revenz/unraid/master/openhab/openhab-logo-square.png</Icon>
   <Beta>False</Beta>
